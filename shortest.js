@@ -12,9 +12,9 @@
 }*/
 
 function findShort(s){
-var arr=s.split("");
+var arr=s.split(" ");
 var ss=arr[0];
-for (var i=0;i<arr.lenght;i++){
+for (var i=0;i<arr.length;i++){
           if(arr[i].length<ss.length)
           {ss=arr[i];}
           }
